@@ -7,13 +7,15 @@ const keccak256 = require('keccak256');
 // 2. Collect list of wallet addresses from competition, raffle, etc.
 // Store list of addresses in some data sheeet (Google Sheets or Excel)
 let whitelistAddresses = [
+   "0x9aEC5be90E8ddd321f10e4FD30155931531B63CF",
     "0X5B38DA6A701C568545DCFCB03FCB875F56BEDDC4",
     "0X5A641E5FB72A2FD9137312E7694D42996D689D99",
     "0XDCAB482177A592E424D1C8318A464FC922E8DE40",
     "0X6E21D37E07A6F7E53C7ACE372CEC63D4AE4B6BD0",
     "0X09BAAB19FC77C19898140DADD30C4685C597620B",
+    "0x9aEC5be90E8ddd321f10e4FD30155931531B63CF",
     "0XCC4C29997177253376528C05D3DF91CF2D69061A",
-    "0xdD870fA1b7C4700F2BD7f44238821C26f7392148" // The address in remix
+    "0x78731D3Ca6b7E34aC0F824c42a7cC18A495cabaB" // The address in remix
   ];
 
 // 3. Create a new array of `leafNodes` by hashing all indexes of the `whitelistAddresses`
